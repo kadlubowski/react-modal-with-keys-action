@@ -1,6 +1,6 @@
 {
   "name": "react-modal-with-keys-action",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React modal component with keydown event Listener. Close modal on 'Esc', perform action on 'Enter' etc.",
   "main": "src/modal.react.js",
   "scripts": {
@@ -9,10 +9,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cinek260/react-modal-with-keys-action.git"
-  },
-  "scripts": {
-    "build": "./scripts/build",
-    "prepublish": "npm run build"
   },
   "keywords": [
     "react",
@@ -27,11 +23,6 @@
   "homepage": "https://github.com/cinek260/react-modal-with-keys-action#readme",
   "dependencies": {
     "react": "^0.14.6",
-    "react-pure-render": "^1.0.2"
-  },
-  "devDependencies": {
-    "babel": "^5.2.9",
-    "babel-eslint": "^3.0.1",
-    "eslint": "^0.20.0"
+    "react-pure-render": "^1.0.2",
   }
 }
