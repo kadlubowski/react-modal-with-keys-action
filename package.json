@@ -10,6 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/cinek260/react-modal-with-keys-action.git"
   },
+  "scripts": {
+    "build": "./scripts/build",
+    "prepublish": "npm run build"
+  },
   "keywords": [
     "react",
     "modal",
@@ -24,5 +28,10 @@
   "dependencies": {
     "react": "^0.14.6",
     "react-pure-render": "^1.0.2"
+  },
+  "devDependencies": {
+    "babel": "^5.2.9",
+    "babel-eslint": "^3.0.1",
+    "eslint": "^0.20.0"
   }
 }
