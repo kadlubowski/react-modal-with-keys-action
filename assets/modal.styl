@@ -1,5 +1,5 @@
 @import './globals.styl'
-.modal-background
+.react-modal-with-keys-action-background
     background rgba(primary, .7)
     width 100%
     height 100%
@@ -9,14 +9,14 @@
     left 0
     display none
     overflow scroll
-    .modal-wrapper
+    .react-modal-with-keys-action-wrapper
         position relative
         display table-cell
         vertical-align middle
         width 100%
         padding 100px 0
         overflow-y auto
-        .modal
+        .react-modal-with-keys-action
             position relative
             width 90%
             padding 25px 25px
@@ -25,12 +25,12 @@
             img
               max-width 100%
               max-height 300px
-            .close
+            .react-modal-with-keys-action-close
                 position absolute
                 cursor pointer
                 right 30px
                 top -60px
-                div.x
+                div.react-modal-with-keys-action-x
                     position absolute
                     width 30px
                     height 30px
@@ -58,15 +58,15 @@
                 strong
                     font-weight 400
 
-.active.modal-background
+.active.react-modal-with-keys-action-background
     display flex
     justify-content center
 @media only screen and (min-width: 48em)
-    .modal-background
-        .modal-wrapper
-            .modal
+    .react-modal-with-keys-action-background
+        .react-modal-with-keys-action-wrapper
+            .react-modal-with-keys-action
                 width 50%
                 padding 25px 50px
-                .close
+                .react-modal-with-keys-action-close
                     right -20px
                     top -60px
