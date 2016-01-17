@@ -45,9 +45,6 @@ export default class Modal extends Component {
   }
 
   render() {
-
-    const {isVisible} = this.props;
-
     return (
       <div className='react-modal-with-keys-action-background active' onClick={::this.closeModal}>
         <div className="react-modal-with-keys-action-wrapper">
