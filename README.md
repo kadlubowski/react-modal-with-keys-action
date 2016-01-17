@@ -53,7 +53,7 @@ export default class ModalDemo extends Component {
             <div>
                 <button onClick={}></button>
                 {isModalVisible&&
-                <Modal closeModalAction={this.closeModalAction} enterAction={this.enterAction} deleteAction={this.deleteAction}>
+                <Modal closeModalAction={this.closeModalAction} enterAction={this.enterAction} deleteAction={this.deleteAction} handleKeyDownEvent={true}>
                     <div>
                         <p>Press esc to close modal, press enter to perform enterAction, press delete to perform deleteAction</p>
                     </div>

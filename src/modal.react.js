@@ -11,7 +11,7 @@ export default class Modal extends Component {
 
   closeModal(e){
     const {closeModalAction} = this.props;
-    if(e.target.className === 'modal-wrapper' || e.target.className === 'close' || e.target.className === 'x' || e.target.className === 'modal-background active') {
+    if(e.target.className === 'react-modal-with-keys-action-wrapper' || e.target.className === 'react-modal-with-keys-action-close' || e.target.className === 'react-modal-with-keys-action-x' || e.target.className === 'react-modal-with-keys-action-background active') {
       closeModalAction();
     }
   }
