@@ -51,7 +51,7 @@ export default class ModalDemo extends Component {
         const {isModalVisible} = this.state;
         return(
             <div>
-                <button onClick={}></button>
+                <button onClick={this.openModalAction}>Open modal</button>
                 {isModalVisible&&
                 <Modal closeModalAction={this.closeModalAction} enterAction={this.enterAction} deleteAction={this.deleteAction} handleKeyDownEvent={true}>
                     <div>
