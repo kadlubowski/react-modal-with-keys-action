@@ -1,6 +1,6 @@
-import Component from 'react-pure-render/component';
-import React from 'react';
-import './modal.styl';
+const Component = require('react-pure-render/component');
+const React = require('react');
+require('./modal.styl');
 
 export default class Modal extends Component {
 
