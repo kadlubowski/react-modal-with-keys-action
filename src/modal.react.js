@@ -19,7 +19,7 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-require('./modal.styl');
+require('../assets/modal.styl');
 
 Modal = (function (_Component) {
   _inherits(_temporalAssertDefined(Modal, 'Modal', _temporalUndefined) && Modal, _Component);
