@@ -1,6 +1,6 @@
 {
   "name": "react-modal-with-keys-action",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React modal component with keydown event Listener. Close modal on 'Esc', perform action on 'Enter' etc.",
   "main": "src/modal.react.js",
   "scripts": {
