@@ -25,24 +25,24 @@ Set ```true``` to enable modalKeysActions. If set ```false``` or not set, modalK
 #### modalKeysActions
 - optional
 - array of objects. Object props are:
-- - key
-- - - reqiured
-- - - number (ASCII char code)
-- - action
-- - - required only when multiKeys is not set ```true```
-- - - function (performed on key press)
-- - multiKeys
-- - - optional
-- - - boolean (Set ```true``` if want perform action when multiple keys are pressed)
-- - actions
-- - - required only when multiKeys is set ```true```
-- - - array of objects. Object props are:
-- - - - keys
-- - - - - required
-- - - - - array of strings (Supported values are ```'Alt'```, ```'Control'``` and ```'Shift'```)
-- - - - action
-- - - - - required
-- - - - - function (performed when all keys are pressed)
+    - key
+        - reqiured
+        - number (ASCII char code)
+    - action
+        - required only when multiKeys is not set ```true```
+        - function (performed on key press)
+    - multiKeys
+        - optional
+        - boolean (Set ```true``` if want perform action when multiple keys are pressed)
+    - actions
+        - required only when multiKeys is set ```true```
+        - array of objects. Object props are:
+            - keys
+                - required
+                - array of strings (Supported values are ```'Alt'```, ```'Control'``` and ```'Shift'```)
+            - action
+                - required
+                - function (performed when all keys are pressed)
 
 Example of modalKeysActions prop:
 
