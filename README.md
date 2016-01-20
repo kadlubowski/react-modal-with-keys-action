@@ -27,7 +27,7 @@ Set ```true``` to enable modalKeysActions. If set ```false``` or not set, modalK
 - array of objects. Object props are:
     - key
         - reqiured
-        - number (ASCII char code)
+        - number (key code)
     - action
         - required only when multiKeys is not set ```true```
         - function (performed on key press)
