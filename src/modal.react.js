@@ -1,6 +1,5 @@
 import Component from 'react-pure-render/component';
 import React, {PropTypes} from 'react';
-import '../assets/modal.styl';
 
 export default class Modal extends Component {
 
@@ -74,7 +73,7 @@ export default class Modal extends Component {
 
   render() {
     return (
-      <div className='react-modal-with-keys-action-background active' onClick={this.closeModal}>
+      <div className='react-modal-with-keys-action-background' onClick={this.closeModal}>
         <div className="react-modal-with-keys-action-wrapper">
           <div className="react-modal-with-keys-action">
             <div className="react-modal-with-keys-action-close">

@@ -69,12 +69,18 @@ Example of modalKeysActions prop:
     }]
 ```
 
+### Style
+
+You can use your own style sheet. I suggest to start with my [css](./assets/modal.css) or [stylus](./assets/modal.styl) files.
+
+
 ### Example
 
 ```javascript
 import React from 'react';
 import Component from 'react-pure-render/component';
 import Modal from 'react-modal-with-keys-action';
+import './modal.styl';
 
 export default class ModalDemo extends Component {
 
