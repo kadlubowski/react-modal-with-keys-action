@@ -71,7 +71,7 @@ Example of modalKeysActions prop:
 
 ### Style
 
-You can use your own style sheet. I suggest to start with my [css](./assets/modal.css) or [stylus](./assets/modal.styl) files.
+You can use your own style sheet. Good way to start is to use this [css](./assets/modal.css) or [stylus](./assets/modal.styl) files.
 
 
 ### Example
