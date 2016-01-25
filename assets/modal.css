@@ -34,23 +34,20 @@
 .react-modal-with-keys-action-background .react-modal-with-keys-action-wrapper .react-modal-with-keys-action .react-modal-with-keys-action-close {
     position: absolute;
     cursor: pointer;
-    right: 30px;
-    top: -60px;
+    right: 50px;
+    top: -30px;
 }
 .react-modal-with-keys-action-background .react-modal-with-keys-action-wrapper .react-modal-with-keys-action .react-modal-with-keys-action-close div.react-modal-with-keys-action-x {
     position: absolute;
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 0;
     border-top: 3px solid white;
-    border-left: 3px solid white;
 }
 .react-modal-with-keys-action-background .react-modal-with-keys-action-wrapper .react-modal-with-keys-action .react-modal-with-keys-action-close div.react-modal-with-keys-action-x:first-child {
-    transform: rotate(225deg);
-    top: -19px;
+    transform: rotate(135deg);
 }
 .react-modal-with-keys-action-background .react-modal-with-keys-action-wrapper .react-modal-with-keys-action .react-modal-with-keys-action-close div.react-modal-with-keys-action-x:last-child {
     transform: rotate(45deg);
-    top: 19px;
 }
 
 
@@ -60,7 +57,8 @@
         padding: 25px 50px;
     }
     .react-modal-with-keys-action-background .react-modal-with-keys-action-wrapper .react-modal-with-keys-action .react-modal-with-keys-action-close {
-        right: -20px;
-        top: -60px;
+        right: 0;
+        top: -30px;
     }
 }
+
