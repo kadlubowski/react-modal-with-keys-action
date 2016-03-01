@@ -121,7 +121,7 @@ export default class ModalDemo extends Component {
   render(){
     const {isModalVisible} = this.state;
     const ENTER_KEY = 13;
-    const modalActions = [{
+    const modalKeysActions = [{
       key:ENTER_KEY,
       multiKeys:true,
       actions:[{
@@ -146,7 +146,7 @@ export default class ModalDemo extends Component {
       <div>
         <button onClick={this.openModalAction}>Open modal</button>
         {isModalVisible&&
-        <Modal closeModalAction={this.closeModalAction} modalActions={modalActions} handleKeyDownEvent={true}>
+        <Modal closeModalAction={this.closeModalAction} modalKeysActions={modalKeysActions} handleKeyDownEvent={true}>
           <div>
             <p>Press esc to close modal, press enter to perform enterAction</p>
           </div>
